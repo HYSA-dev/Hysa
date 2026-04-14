@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 2 - Daftar Harga Produk</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 12px;
+        text-align: left;
+      }
+      th {
+        background-color: #04aa6d;
+        color: white;
+        text-align: center;
+      }
+
+      .promo {
+        background-color: #ffffcc;
+        font-weight: bold;
+      }
+      caption {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Daftar Harga Produk
+      </caption>
+      <tr>
+        <th>Kategori</th>
+        <th>Produk</th>
+        <th>Harga</th>
+      </tr>
+
+      <tr>
+        <td rowspan="2">Elektronik</td>
+        <td>Laptop</td>
+        <td>Rp 8.000.000</td>
+      </tr>
+      <tr>
+        <td>Smartphone</td>
+        <td>Rp 4.000.000</td>
+      </tr>
+
+      <tr class="promo">
+        <td colspan="2">Paket Bundling (Laptop + Mouse)</td>
+        <td>Rp 8.200.000</td>
+      </tr>
+
+      <tr>
+        <td>Aksesoris</td>
+        <td>Mouse Wireless</td>
+        <td>Rp 300.000</td>
+      </tr>
+    </table>
+  </body>
+</html>
